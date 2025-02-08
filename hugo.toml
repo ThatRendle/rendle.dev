@@ -1,0 +1,60 @@
+baseURL = 'https://rendle.dev/'
+theme = 'hugo-simple'
+languageCode = 'en-us'
+title = 'rendle.dev'
+description = 'the blog of Rendle'
+copyright = '© 2025 Rendle'
+enableRobotsTXT = true
+
+[permalinks]
+blog = "/:slugorfilename/"
+tags = "/blog/:slug"
+
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "catppuccin-mocha"
+
+[params]
+title = "rendle.dev"
+description = "the blog of Rendle"
+favicon = "images/favicon.png"
+dateFormat = "2006-01-02"
+hideMadeWithLine = false
+hideRSSLink = false
+
+[params.author]
+name = "Rendle"
+email = "rendle@rendlelabs.com"
+# fediverse = "@chensl@mastodon.social"
+
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 20
+[[menu.main]]
+name = "Talks"
+pageRef = "/talks"
+weight = 20
+
+[services.rss]
+limit = 42
+
+[pagination]
+pagerSize = 16
+
+[outputs]
+# Generate RSS for home only.
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]

@@ -1,0 +1,1 @@
+Hi, I'm Rendle and this is my blog.
