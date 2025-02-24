@@ -1,6 +1,6 @@
 ---
 title: "rendle.dev"
-description: "programmer . speaker . bassist . person"
+description: "programmer • speaker • bassist • person in progress"
 ---
 
 Hi, I'm Rendle.
