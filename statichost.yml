@@ -3,3 +3,4 @@ command: hugo
 public: public
 domains:
 - rendle.dev
+- www.rendle.dev
