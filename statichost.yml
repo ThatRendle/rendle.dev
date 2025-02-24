@@ -1,3 +1,5 @@
 image: hugomods/hugo:reg-base-0.141.0
 command: hugo
 public: public
+domains:
+- rendle.dev
