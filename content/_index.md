@@ -19,3 +19,10 @@ a Docker Captain, and a bunch of other things, and I'm currently
 a [podcaster](https://open.spotify.com/show/251OR8a0lxTzpjCwIL44KM),
 a writer, and the bass player in the world's premier
 tech parody band, [The Linebreakers](https://linebreakers.band).
+
+## Links
+
+- [Bluesky](https://bsky.app/profile/rendle.dev)
+- [LinkedIn](https://www.linkedin.com/in/rendledotdev/)
+- [YouTube](https://www.youtube.com/@TechBugsRockRoll)
+- [Sessionize](https://sessionize.com/rendle/)
